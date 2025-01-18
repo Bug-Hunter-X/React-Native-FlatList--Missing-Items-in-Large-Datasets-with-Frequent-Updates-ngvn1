@@ -1,0 +1,1 @@
+This bug occurs when using the `FlatList` component in React Native with a large dataset.  The `renderItem` function might not be called for all items, resulting in some items not being rendered. This is often exacerbated by frequent data updates or changes in the `data` prop of the `FlatList`.
